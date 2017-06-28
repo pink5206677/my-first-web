@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+*{
+    font-family: 'ostrich-sans', cursive;
+}
+.title{
+    font-size: 20px;
+    color: yellow;
+}
+
+.title{
+    font-size: 32px;
+    color: red;
+    text-shadow: 0px 5px 10px blue;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    background: rgba(255,0,0,0.2)
+}
+
+.btn{
+    text-decoration: underline;
+    background: #c31386;
+    color: wheat;
+    padding: 10px 200px ; /*上下 左右 留白*/
+    display: inline-block;
+
+    
+}
+
+.btn:hover{
+    background: #ff0031;
+}
+
+.item{
+    width: 300px;
+    height: 300px;
+    background: royalblue;
+    border: 5px solid green ;
+    padding: 30px 90px ; /*上下 左右*/  /*or 上右下左四個數值*/
+    margin: 40px auto; /*上下 左右*/  /*or 上右下左四個數值*/ /*auto 置中*/
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.5) , 0px 5px 0px  red ; /*-5px擴散效果*/
+    
+}
+
+html,
+body{
+    margin: 0px;
+    padding: 0px;
+        
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*背景固定*/
+    
+    /*垂直至中*/
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header>h1{
+    text-align: center;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
